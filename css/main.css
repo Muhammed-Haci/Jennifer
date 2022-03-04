@@ -162,17 +162,7 @@ a:active {
   z-index: -1;
 }
 
-.articles .main_title,
-.gallery .main_title,
-.features .main_title,
-.testimonial .main_title,
-.members .main_title,
-.services .main_title,
-.our-skills .main_title,
-.how-it-works .main_title,
-.events .main_title,
-.pricing-plans .main_title,
-.videos .main_title {
+.articles .main_title, .gallery .main_title, .features .main_title, .testimonial .main_title, .members .main_title, .services .main_title, .our-skills .main_title, .how-it-works .main_title, .events .main_title, .pricing-plans .main_title, .videos .main_title {
   position: relative;
   z-index: 2;
   width: -webkit-fit-content;
@@ -186,28 +176,7 @@ a:active {
   border: 2px solid black;
   text-transform: uppercase;
 }
-.articles .main_title::before,
-.gallery .main_title::before,
-.features .main_title::before,
-.testimonial .main_title::before,
-.members .main_title::before,
-.services .main_title::before,
-.our-skills .main_title::before,
-.how-it-works .main_title::before,
-.events .main_title::before,
-.pricing-plans .main_title::before,
-.videos .main_title::before,
-.articles .main_title::after,
-.gallery .main_title::after,
-.features .main_title::after,
-.testimonial .main_title::after,
-.members .main_title::after,
-.services .main_title::after,
-.our-skills .main_title::after,
-.how-it-works .main_title::after,
-.events .main_title::after,
-.pricing-plans .main_title::after,
-.videos .main_title::after {
+.articles .main_title::before, .gallery .main_title::before, .features .main_title::before, .testimonial .main_title::before, .members .main_title::before, .services .main_title::before, .our-skills .main_title::before, .how-it-works .main_title::before, .events .main_title::before, .pricing-plans .main_title::before, .videos .main_title::before, .articles .main_title::after, .gallery .main_title::after, .features .main_title::after, .testimonial .main_title::after, .members .main_title::after, .services .main_title::after, .our-skills .main_title::after, .how-it-works .main_title::after, .events .main_title::after, .pricing-plans .main_title::after, .videos .main_title::after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -219,71 +188,21 @@ a:active {
   transition: 0.5s;
   background-color: #2196f3;
 }
-.articles .main_title::before,
-.gallery .main_title::before,
-.features .main_title::before,
-.testimonial .main_title::before,
-.members .main_title::before,
-.services .main_title::before,
-.our-skills .main_title::before,
-.how-it-works .main_title::before,
-.events .main_title::before,
-.pricing-plans .main_title::before,
-.videos .main_title::before {
+.articles .main_title::before, .gallery .main_title::before, .features .main_title::before, .testimonial .main_title::before, .members .main_title::before, .services .main_title::before, .our-skills .main_title::before, .how-it-works .main_title::before, .events .main_title::before, .pricing-plans .main_title::before, .videos .main_title::before {
   left: -30px;
 }
-.articles .main_title::after,
-.gallery .main_title::after,
-.features .main_title::after,
-.testimonial .main_title::after,
-.members .main_title::after,
-.services .main_title::after,
-.our-skills .main_title::after,
-.how-it-works .main_title::after,
-.events .main_title::after,
-.pricing-plans .main_title::after,
-.videos .main_title::after {
+.articles .main_title::after, .gallery .main_title::after, .features .main_title::after, .testimonial .main_title::after, .members .main_title::after, .services .main_title::after, .our-skills .main_title::after, .how-it-works .main_title::after, .events .main_title::after, .pricing-plans .main_title::after, .videos .main_title::after {
   right: -30px;
 }
-.articles .main_title:hover::before,
-.gallery .main_title:hover::before,
-.features .main_title:hover::before,
-.testimonial .main_title:hover::before,
-.members .main_title:hover::before,
-.services .main_title:hover::before,
-.our-skills .main_title:hover::before,
-.how-it-works .main_title:hover::before,
-.events .main_title:hover::before,
-.pricing-plans .main_title:hover::before,
-.videos .main_title:hover::before {
+.articles .main_title:hover::before, .gallery .main_title:hover::before, .features .main_title:hover::before, .testimonial .main_title:hover::before, .members .main_title:hover::before, .services .main_title:hover::before, .our-skills .main_title:hover::before, .how-it-works .main_title:hover::before, .events .main_title:hover::before, .pricing-plans .main_title:hover::before, .videos .main_title:hover::before {
   -webkit-animation: move-left 0.5s linear forwards;
-  animation: move-left 0.5s linear forwards;
+          animation: move-left 0.5s linear forwards;
 }
-.articles .main_title:hover::after,
-.gallery .main_title:hover::after,
-.features .main_title:hover::after,
-.testimonial .main_title:hover::after,
-.members .main_title:hover::after,
-.services .main_title:hover::after,
-.our-skills .main_title:hover::after,
-.how-it-works .main_title:hover::after,
-.events .main_title:hover::after,
-.pricing-plans .main_title:hover::after,
-.videos .main_title:hover::after {
+.articles .main_title:hover::after, .gallery .main_title:hover::after, .features .main_title:hover::after, .testimonial .main_title:hover::after, .members .main_title:hover::after, .services .main_title:hover::after, .our-skills .main_title:hover::after, .how-it-works .main_title:hover::after, .events .main_title:hover::after, .pricing-plans .main_title:hover::after, .videos .main_title:hover::after {
   -webkit-animation: move-right 0.5s linear forwards;
-  animation: move-right 0.5s linear forwards;
+          animation: move-right 0.5s linear forwards;
 }
-.articles .main_title:hover,
-.gallery .main_title:hover,
-.features .main_title:hover,
-.testimonial .main_title:hover,
-.members .main_title:hover,
-.services .main_title:hover,
-.our-skills .main_title:hover,
-.how-it-works .main_title:hover,
-.events .main_title:hover,
-.pricing-plans .main_title:hover,
-.videos .main_title:hover {
+.articles .main_title:hover, .gallery .main_title:hover, .features .main_title:hover, .testimonial .main_title:hover, .members .main_title:hover, .services .main_title:hover, .our-skills .main_title:hover, .how-it-works .main_title:hover, .events .main_title:hover, .pricing-plans .main_title:hover, .videos .main_title:hover {
   border-color: #fff;
   color: white;
   transition-delay: 0.5s;
@@ -494,10 +413,10 @@ footer .container .info li span {
   display: block;
   color: #b9b9b9;
 }
-footer .container .images {
+footer .container .imgs {
   text-align: center;
 }
-footer .container .images img {
+footer .container .imgs img {
   width: 75px;
   margin: 4px;
   border: 4px solid white;
@@ -532,7 +451,7 @@ footer .copyright span:last-of-type {
   z-index: -2;
   background-color: #ececec;
   -webkit-clip-path: polygon(100% 0, 100% 85%, 0 97%, 0 0);
-  clip-path: polygon(100% 0, 100% 85%, 0 97%, 0 0);
+          clip-path: polygon(100% 0, 100% 85%, 0 97%, 0 0);
 }
 .landing .container {
   display: flex;
@@ -580,7 +499,7 @@ footer .copyright span:last-of-type {
   position: relative;
   width: 80%;
   -webkit-animation: up-and-down 5s linear infinite;
-  animation: up-and-down 5s linear infinite;
+          animation: up-and-down 5s linear infinite;
 }
 @media (min-width: 992px) {
   .landing .container img {
@@ -594,7 +513,7 @@ footer .copyright span:last-of-type {
   left: 50%;
   transform: translateX(-50%);
   -webkit-animation: bouncing 1.5s linear infinite;
-  animation: bouncing 1.5s linear infinite;
+          animation: bouncing 1.5s linear infinite;
 }
 .landing .container i:hover {
   color: #1787e0;
@@ -623,7 +542,7 @@ footer .copyright span:last-of-type {
 }
 .articles figure:hover i {
   -webkit-animation: moving-arrow 0.8s linear infinite;
-  animation: moving-arrow 0.8s linear infinite;
+          animation: moving-arrow 0.8s linear infinite;
 }
 .articles figure figcaption {
   padding: 0 15px;
@@ -689,7 +608,7 @@ footer .copyright span:last-of-type {
 }
 .gallery .container .image:hover ::after {
   -webkit-animation: flashing 0.7s linear forwards;
-  animation: flashing 0.7s linear forwards;
+          animation: flashing 0.7s linear forwards;
 }
 
 /* ---------------- End Gellary section --------------*/
@@ -841,7 +760,7 @@ footer .copyright span:last-of-type {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   row-gap: 75px;
   -moz-column-gap: 40px;
-  column-gap: 40px;
+       column-gap: 40px;
 }
 .testimonial figure {
   position: relative;
@@ -881,7 +800,7 @@ footer .copyright span:last-of-type {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   row-gap: 75px;
   -moz-column-gap: 40px;
-  column-gap: 40px;
+       column-gap: 40px;
 }
 .members .box {
   position: relative;
@@ -965,7 +884,7 @@ footer .copyright span:last-of-type {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   row-gap: 75px;
   -moz-column-gap: 40px;
-  column-gap: 40px;
+       column-gap: 40px;
 }
 .services .srv {
   position: relative;
@@ -1191,7 +1110,7 @@ footer .copyright span:last-of-type {
     align-items: center;
     justify-content: space-between;
     -moz-column-gap: 30px;
-    column-gap: 30px;
+         column-gap: 30px;
   }
 }
 .events img {
@@ -1343,11 +1262,11 @@ footer .copyright span:last-of-type {
   font-size: 18px;
   font-weight: bold;
   -ms-writing-mode: tb;
-  writing-mode: tb;
+      writing-mode: tb;
   color: white;
   background-color: #2196f3;
   -webkit-clip-path: polygon(100% 0, 100% 100%, 46% 90%, 0 100%, 0 0);
-  clip-path: polygon(100% 0, 100% 100%, 46% 90%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 100%, 46% 90%, 0 100%, 0 0);
 }
 .pricing-plans .plan {
   position: relative;
@@ -1355,8 +1274,7 @@ footer .copyright span:last-of-type {
   padding: 20px 0;
   background-color: white;
 }
-.pricing-plans .plan::before,
-.pricing-plans .plan::after {
+.pricing-plans .plan::before, .pricing-plans .plan::after {
   content: "";
   position: absolute;
   width: 0;
@@ -1373,8 +1291,7 @@ footer .copyright span:last-of-type {
   right: 0;
   bottom: 0;
 }
-.pricing-plans .plan:hover::before,
-.pricing-plans .plan:hover::after {
+.pricing-plans .plan:hover::before, .pricing-plans .plan:hover::after {
   width: 100%;
 }
 .pricing-plans .plan .header {
@@ -1497,7 +1414,7 @@ footer .copyright span:last-of-type {
 .stats {
   position: relative;
   background-color: #cecece;
-  background-image: url("../images/stats.jpg");
+  background-image: url("../imgs/stats.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 6.25rem;
@@ -1536,8 +1453,7 @@ footer .copyright span:last-of-type {
   transition: 0.5s;
   background-color: white;
 }
-.stats .content::before,
-.stats .content::after {
+.stats .content::before, .stats .content::after {
   content: "";
   position: absolute;
   width: 2px;
@@ -1553,8 +1469,7 @@ footer .copyright span:last-of-type {
   top: 0;
   right: 0;
 }
-.stats .content:hover::before,
-.stats .content:hover::after {
+.stats .content:hover::before, .stats .content:hover::after {
   height: 100%;
 }
 .stats .content:hover {
@@ -1593,7 +1508,7 @@ footer .copyright span:last-of-type {
   z-index: 1;
   color: white;
   -webkit-animation: change-background 20s linear infinite;
-  animation: change-background 20s linear infinite;
+          animation: change-background 20s linear infinite;
 }
 .discount .text::before {
   background-color: #1787e0f7;
@@ -1642,7 +1557,7 @@ footer .copyright span:last-of-type {
   border-bottom: 1px solid #ccc;
   background-color: #f9f9f9;
 }
-.discount .field form input[type="submit"] {
+.discount .field form input[type=submit] {
   display: block;
   font-size: 18px;
   font-weight: bold;
@@ -1663,8 +1578,7 @@ footer .copyright span:last-of-type {
 /* ----------------- End Footer section ------------*/
 /* ------------------- Start Animation -------------*/
 @-webkit-keyframes up-and-down {
-  0%,
-  100% {
+  0%, 100% {
     top: 0;
   }
   50% {
@@ -1672,8 +1586,7 @@ footer .copyright span:last-of-type {
   }
 }
 @keyframes up-and-down {
-  0%,
-  100% {
+  0%, 100% {
     top: 0;
   }
   50% {
@@ -1681,30 +1594,18 @@ footer .copyright span:last-of-type {
   }
 }
 @-webkit-keyframes bouncing {
-  0%,
-  10%,
-  20%,
-  50%,
-  80%,
-  100% {
+  0%, 10%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
-  40%,
-  60% {
+  40%, 60% {
     transform: translateY(-15px);
   }
 }
 @keyframes bouncing {
-  0%,
-  10%,
-  20%,
-  50%,
-  80%,
-  100% {
+  0%, 10%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
-  40%,
-  60% {
+  40%, 60% {
     transform: translateY(-15px);
   }
 }
@@ -1771,8 +1672,7 @@ footer .copyright span:last-of-type {
   }
 }
 @-webkit-keyframes flashing {
-  0%,
-  40% {
+  0%, 40% {
     opacity: 1;
   }
   100% {
@@ -1782,8 +1682,7 @@ footer .copyright span:last-of-type {
   }
 }
 @keyframes flashing {
-  0%,
-  40% {
+  0%, 40% {
     opacity: 1;
   }
   100% {
@@ -1793,24 +1692,22 @@ footer .copyright span:last-of-type {
   }
 }
 @-webkit-keyframes change-background {
-  0%,
-  100% {
-    background-image: url("../images/discount-background1.jpg");
+  0%, 100% {
+    background-image: url("../imgs/discount-background1.jpg");
     background-size: cover;
   }
   50% {
-    background-image: url("../images/discount-background2.jpg");
+    background-image: url("../imgs/discount-background2.jpg");
     background-size: cover;
   }
 }
 @keyframes change-background {
-  0%,
-  100% {
-    background-image: url("../images/discount-background1.jpg");
+  0%, 100% {
+    background-image: url("../imgs/discount-background1.jpg");
     background-size: cover;
   }
   50% {
-    background-image: url("../images/discount-background2.jpg");
+    background-image: url("../imgs/discount-background2.jpg");
     background-size: cover;
   }
 }
