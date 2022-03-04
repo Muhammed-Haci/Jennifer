@@ -162,7 +162,7 @@ a:active {
   z-index: -1;
 }
 
-.articles .main_title, .gallery .main_title, .features .main_title, .testimonial .main_title, .members .main_title, .services .main_title, .our-skills .main_title, .how-it-works .main_title, .events .main_title, .pricing-plans .main_title, .videos .main_title {
+.articles .main_title, .gallery .main_title, .features .main_title, .testimonials .main_title, .members .main_title, .services .main_title, .our-skills .main_title, .how-it-works .main_title, .events .main_title, .pricing-plans .main_title, .videos .main_title {
   position: relative;
   z-index: 2;
   width: -webkit-fit-content;
@@ -172,11 +172,12 @@ a:active {
   text-align: center;
   margin: 0 auto 100px;
   padding: 10px 20px;
+  border-radius: 5px;
   transition: 0.5s;
   border: 2px solid black;
   text-transform: uppercase;
 }
-.articles .main_title::before, .gallery .main_title::before, .features .main_title::before, .testimonial .main_title::before, .members .main_title::before, .services .main_title::before, .our-skills .main_title::before, .how-it-works .main_title::before, .events .main_title::before, .pricing-plans .main_title::before, .videos .main_title::before, .articles .main_title::after, .gallery .main_title::after, .features .main_title::after, .testimonial .main_title::after, .members .main_title::after, .services .main_title::after, .our-skills .main_title::after, .how-it-works .main_title::after, .events .main_title::after, .pricing-plans .main_title::after, .videos .main_title::after {
+.articles .main_title::before, .gallery .main_title::before, .features .main_title::before, .testimonials .main_title::before, .members .main_title::before, .services .main_title::before, .our-skills .main_title::before, .how-it-works .main_title::before, .events .main_title::before, .pricing-plans .main_title::before, .videos .main_title::before, .articles .main_title::after, .gallery .main_title::after, .features .main_title::after, .testimonials .main_title::after, .members .main_title::after, .services .main_title::after, .our-skills .main_title::after, .how-it-works .main_title::after, .events .main_title::after, .pricing-plans .main_title::after, .videos .main_title::after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -188,24 +189,43 @@ a:active {
   transition: 0.5s;
   background-color: #2196f3;
 }
-.articles .main_title::before, .gallery .main_title::before, .features .main_title::before, .testimonial .main_title::before, .members .main_title::before, .services .main_title::before, .our-skills .main_title::before, .how-it-works .main_title::before, .events .main_title::before, .pricing-plans .main_title::before, .videos .main_title::before {
+.articles .main_title::before, .gallery .main_title::before, .features .main_title::before, .testimonials .main_title::before, .members .main_title::before, .services .main_title::before, .our-skills .main_title::before, .how-it-works .main_title::before, .events .main_title::before, .pricing-plans .main_title::before, .videos .main_title::before {
   left: -30px;
 }
-.articles .main_title::after, .gallery .main_title::after, .features .main_title::after, .testimonial .main_title::after, .members .main_title::after, .services .main_title::after, .our-skills .main_title::after, .how-it-works .main_title::after, .events .main_title::after, .pricing-plans .main_title::after, .videos .main_title::after {
+.articles .main_title::after, .gallery .main_title::after, .features .main_title::after, .testimonials .main_title::after, .members .main_title::after, .services .main_title::after, .our-skills .main_title::after, .how-it-works .main_title::after, .events .main_title::after, .pricing-plans .main_title::after, .videos .main_title::after {
   right: -30px;
 }
-.articles .main_title:hover::before, .gallery .main_title:hover::before, .features .main_title:hover::before, .testimonial .main_title:hover::before, .members .main_title:hover::before, .services .main_title:hover::before, .our-skills .main_title:hover::before, .how-it-works .main_title:hover::before, .events .main_title:hover::before, .pricing-plans .main_title:hover::before, .videos .main_title:hover::before {
+.articles .main_title:hover::before, .gallery .main_title:hover::before, .features .main_title:hover::before, .testimonials .main_title:hover::before, .members .main_title:hover::before, .services .main_title:hover::before, .our-skills .main_title:hover::before, .how-it-works .main_title:hover::before, .events .main_title:hover::before, .pricing-plans .main_title:hover::before, .videos .main_title:hover::before {
   -webkit-animation: move-left 0.5s linear forwards;
           animation: move-left 0.5s linear forwards;
 }
-.articles .main_title:hover::after, .gallery .main_title:hover::after, .features .main_title:hover::after, .testimonial .main_title:hover::after, .members .main_title:hover::after, .services .main_title:hover::after, .our-skills .main_title:hover::after, .how-it-works .main_title:hover::after, .events .main_title:hover::after, .pricing-plans .main_title:hover::after, .videos .main_title:hover::after {
+.articles .main_title:hover::after, .gallery .main_title:hover::after, .features .main_title:hover::after, .testimonials .main_title:hover::after, .members .main_title:hover::after, .services .main_title:hover::after, .our-skills .main_title:hover::after, .how-it-works .main_title:hover::after, .events .main_title:hover::after, .pricing-plans .main_title:hover::after, .videos .main_title:hover::after {
   -webkit-animation: move-right 0.5s linear forwards;
           animation: move-right 0.5s linear forwards;
 }
-.articles .main_title:hover, .gallery .main_title:hover, .features .main_title:hover, .testimonial .main_title:hover, .members .main_title:hover, .services .main_title:hover, .our-skills .main_title:hover, .how-it-works .main_title:hover, .events .main_title:hover, .pricing-plans .main_title:hover, .videos .main_title:hover {
+.articles .main_title:hover, .gallery .main_title:hover, .features .main_title:hover, .testimonials .main_title:hover, .members .main_title:hover, .services .main_title:hover, .our-skills .main_title:hover, .how-it-works .main_title:hover, .events .main_title:hover, .pricing-plans .main_title:hover, .videos .main_title:hover {
   border-color: #fff;
   color: white;
   transition-delay: 0.5s;
+}
+
+.scroll-up {
+  display: none;
+  position: fixed;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  cursor: pointer;
+  z-index: 5;
+  border-radius: 10px;
+  transition: 0.5s;
+  background-color: #28699ee0;
+}
+.scroll-up:hover {
+  background-color: #008cff;
 }
 
 header {
@@ -341,19 +361,35 @@ footer .container .box h2 {
   color: white;
   font-size: 50px;
 }
-footer .container .box ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+footer .container .box .social_media {
   margin: 50px 0;
 }
-footer .container .box ul li {
+footer .container .box .social_media a {
   margin: 0 10px;
 }
-footer .container .box ul li a {
-  color: #b9b9b9;
-  padding: 5px 10px;
-  background-color: #313131;
+footer .container .box .social_media a i {
+  padding: 10px;
+  color: aliceblue;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+footer .container .box .social_media a:first-of-type i {
+  background-color: #0c0caabe;
+}
+footer .container .box .social_media a:first-of-type i:hover {
+  background-color: blue;
+}
+footer .container .box .social_media a:nth-of-type(2) i {
+  background-color: #106ce6be;
+}
+footer .container .box .social_media a:nth-of-type(2) i:hover {
+  background-color: #006eff;
+}
+footer .container .box .social_media a:last-of-type i {
+  background-color: #f90b0bba;
+}
+footer .container .box .social_media a:last-of-type i:hover {
+  background-color: red;
 }
 footer .container .box p {
   line-height: 2;
@@ -582,14 +618,15 @@ footer .copyright span:last-of-type {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 40px;
 }
-.gallery .container .image {
+.gallery .container .img-holder {
   position: relative;
+  z-index: 1;
   overflow: hidden;
   border: 10px solid white;
   box-shadow: 0 5px 5px #cecece;
   background-color: #fff;
 }
-.gallery .container .image::after {
+.gallery .container .img-holder::after {
   content: "";
   position: absolute;
   z-index: 2;
@@ -600,13 +637,13 @@ footer .copyright span:last-of-type {
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.2);
 }
-.gallery .container .image img {
+.gallery .container .img-holder img {
   transition: 0.5s;
 }
-.gallery .container .image:hover img {
+.gallery .container .img-holder:hover img {
   transform: rotate(5deg) scale(1.1);
 }
-.gallery .container .image:hover ::after {
+.gallery .container .img-holder:hover::after {
   -webkit-animation: flashing 0.7s linear forwards;
           animation: flashing 0.7s linear forwards;
 }
@@ -671,7 +708,7 @@ footer .copyright span:last-of-type {
   color: white;
 }
 .features figure:hover .img-holder::after {
-  border-width: 170px 500px 170px 0;
+  border-width: 170px 640px 250px 0;
 }
 .features figure .img-holder {
   position: relative;
@@ -749,27 +786,27 @@ footer .copyright span:last-of-type {
 }
 
 /* ---------------- End Features Section -------------*/
-/* -------------- Start Testimonial Section -----------*/
-.testimonial {
+/* -------------- Start Testimonials Section -----------*/
+.testimonials {
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
   background-color: #ececec;
 }
-.testimonial .container {
+.testimonials .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   row-gap: 75px;
   -moz-column-gap: 40px;
        column-gap: 40px;
 }
-.testimonial figure {
+.testimonials figure {
   position: relative;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 5px 5px #cecece;
   background-color: #fff;
 }
-.testimonial figure img {
+.testimonials figure img {
   position: absolute;
   top: -25%;
   right: -10px;
@@ -777,15 +814,15 @@ footer .copyright span:last-of-type {
   border-radius: 50%;
   border: 10px solid #ececec;
 }
-.testimonial figure span {
+.testimonials figure span {
   display: block;
   margin: 5px 0;
   color: #777;
 }
-.testimonial figure i:not(:last-of-type) {
+.testimonials figure i.filled {
   color: #ffc107;
 }
-.testimonial figure p {
+.testimonials figure p {
   color: #777;
 }
 
@@ -837,7 +874,7 @@ footer .copyright span:last-of-type {
   filter: grayscale(100%);
 }
 .members .box:hover h3 {
-  color: #777;
+  color: #777 !important;
 }
 .members .box .content {
   display: flex;
@@ -870,6 +907,7 @@ footer .copyright span:last-of-type {
 .members .box .desc h3 {
   font-size: 20px;
   color: #2196f3;
+  transition: 0.5s;
 }
 
 /* ----------------- End Members Section --------------*/
@@ -988,6 +1026,7 @@ footer .copyright span:last-of-type {
   position: relative;
   height: 30px;
   width: 100%;
+  border-radius: 5px;
   background-color: #d5d5d5;
 }
 .our-skills .skill .progress::after {
@@ -1005,6 +1044,7 @@ footer .copyright span:last-of-type {
 .our-skills .skill .progress span {
   display: block;
   height: 100%;
+  border-radius: 5px;
   background-color: #2196f3;
 }
 
@@ -1543,11 +1583,8 @@ footer .copyright span:last-of-type {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-@media (min-width: 482px) {
-  .discount .field form input {
-    width: 450px;
-  }
+  width: calc(100% - 50px);
+  max-width: 500px;
 }
 .discount .field form input:not(:last-of-type),
 .discount .field form textarea {
