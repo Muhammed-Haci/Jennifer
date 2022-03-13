@@ -27,18 +27,8 @@ Project's sections' Table:
 >> header section
 1- the mega menu should be displayed block in mobile devices
 
->> Gallery Section
-1- The images Flash animation is not working
-
->> Features Section
-1- The images border Effect in the mobile media is short.
-
->> Team Members Section
-1- on hover The Name is not losing the color.
-
-
-
-
+>> our skills section
+1- the progres::after is not showing up!!
 
 --------------- End of Problems in the project -------------*/
 /* ------------------- Start Global Rules ------------------*/
@@ -308,6 +298,7 @@ header .container .main_nav .megamenu {
 }
 header .container .main_nav .megamenu img {
   width: 450px;
+  margin-right: 30px;
 }
 @media (max-width: 991px) {
   header .container .main_nav .megamenu img {
@@ -467,6 +458,10 @@ footer .copyright {
   text-transform: capitalize;
   border-top: 1px solid #b9b9b9;
 }
+footer .copyright span:first-of-type {
+  color: red;
+  margin: 0 4px;
+}
 footer .copyright span:last-of-type {
   color: #2196f3;
 }
@@ -520,7 +515,7 @@ footer .copyright span:last-of-type {
 }
 @media (min-width: 992px) {
   .landing .container .text {
-    flex-basis: 40%;
+    flex-basis: 50%;
     text-align: start;
     margin-bottom: 0;
   }
@@ -539,7 +534,7 @@ footer .copyright span:last-of-type {
 }
 @media (min-width: 992px) {
   .landing .container img {
-    flex-basis: 60%;
+    flex-basis: 50%;
   }
 }
 .landing .container i {
@@ -1026,6 +1021,7 @@ footer .copyright span:last-of-type {
   position: relative;
   height: 30px;
   width: 100%;
+  overflow: hidden;
   border-radius: 5px;
   background-color: #d5d5d5;
 }
@@ -1044,7 +1040,6 @@ footer .copyright span:last-of-type {
 .our-skills .skill .progress span {
   display: block;
   height: 100%;
-  border-radius: 5px;
   background-color: #2196f3;
 }
 
