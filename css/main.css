@@ -528,7 +528,7 @@ footer .copyright span:last-of-type {
 }
 .landing .container img {
   position: relative;
-  width: 80%;
+  width: 50%;
   -webkit-animation: up-and-down 5s linear infinite;
           animation: up-and-down 5s linear infinite;
 }
